@@ -23,7 +23,7 @@ Isso mudará quando virmos algumas propriedades de limites, e poderemos calculá
 
 ## Épsilon-Delta
 
-Conceitos como "tender", "aproximar", "proximidade" são abstratos o suficiente de forma que a definição intuitiva não possa ser classificada como uma definição matemática de fato. Dessa forma, a definição épsilon-delta de limites, também conhecida por <b>definição formal de limites</b> cumpre o requisito de ser rigorosa. 
+Conceitos como "tender", "aproximar" e "proximidade" são abstratos o suficiente de forma que a definição intuitiva não possa ser classificada como uma definição matemática de fato. Dessa forma, a definição épsilon-delta de limites, também conhecida por <b>definição formal de limites</b>, cumpre o requisito de ser rigorosa. 
 
 <aside>
 
@@ -66,7 +66,7 @@ $$
 \end{align*}
 $$
 
-Todas as provas irão seguir o mesmo padrão, buscando simplificar a função para um formato $|x-a| \lt C \cdot \epsilon$, com $C \in \mathbb{R}$ e trabalhando novamente do começo ao fim. Um passo importante para efetuar este primeiro passo é buscar outro termo que seja independente de $x$ e que satisfaça a desigualdade, permitindo limitar sua expressão com $|x-a|$ e consequentemente atribuir um valor para $\delta$ em função de $\varepsilon$. 
+Todas as provas irão seguir o mesmo padrão, buscando simplificar a função para um formato $|x-a| \lt C \cdot \varepsilon$, com $C \in \mathbb{R}$ e trabalhando novamente do começo ao fim. Um passo importante para efetuar este primeiro passo é buscar outro termo que seja independente de $x$ e que satisfaça a desigualdade, permitindo limitar sua expressão com $|x-a|$ e consequentemente atribuir um valor para $\delta$ em função de $\varepsilon$. 
 
 </aside>
 
@@ -130,9 +130,9 @@ Os **limites laterais** são uma especificidade que nasce da noção de aproxima
 
 Como estamos tratando de uma reta real, podemos aproximar os dois números com $x>a$, assumindo valores cada vez menores — e mais próximos da nossa constante —, ou obedecendo à restrição de que $x < a$, em que a variável irá assumir valores cada vez maiores.
 
-O primeiro caso é chamado de **limite a direita**, enquanto o segundo é chamado de **limite a esquerda**. Seus nomes vêm das seções da reta real que $x$ percorre quando se aproxima de $a$.
+O primeiro caso é chamado de **limite à direita**, enquanto o segundo é chamado de **limite à esquerda**. Seus nomes vêm das seções da reta real que $x$ percorre quando se aproxima de $a$.
 
-Em questão de notação, denotamos, respectivamente:
+Em questão de notação, representamos, respectivamente:
 
 $$
 \lim_{x \rightarrow a^+} f(x)=L
@@ -152,7 +152,7 @@ $$
 
 # Propriedades
 
-Como dito anteriormente, as propriedades de limites nos serão muito úteis para calculá-los sem a necessidade de gráficos ou tediantes aproximações numéricas. Aqui estão reunidas todas, ou pelo menos as mais importantes, em ordem crescente de complexidade. 
+Como dito anteriormente, as propriedades de limites nos serão muito úteis para calculá-los sem a necessidade de gráficos ou tediosas aproximações numéricas. Aqui estão reunidas todas, ou pelo menos as mais importantes, em ordem crescente de complexidade. 
 
 ## Limite de uma constante
 
@@ -312,7 +312,7 @@ Esses últimos fatos nos serão muito úteis para a sua aplicação — o verdad
 
 ### Fatorando polinômios com Briot-Ruffini
 
-Quando assumimos que $r$ é uma raíz de $P(x)$, já podemos saber de antemão que $s=0$, assim, podemos reescrever 
+Quando assumimos que $r$ é uma raiz de $P(x)$, já podemos saber de antemão que $s=0$, assim, podemos reescrever 
 
 $$
 P(x)=Q(x)R(x) + s \Rightarrow P(x)=Q(x)(x-r)
@@ -375,7 +375,7 @@ Além disso, nessa seção, veremos os **limites no infinito** conjuntamente com
 
 ## Assíntotas verticais
 
-As assíntotas verticais são retas que cruzam perpendicularmente o eixo das abcissas, o cruzando num único ponto. Por isso, são denotadas pela equação $x=c$, com $c \in \mathbb{R}$. 
+As assíntotas verticais são retas que cruzam perpendicularmente o eixo das abscissas, o cruzando num único ponto. Por isso, são denotadas pela equação $x=c$, com $c \in \mathbb{R}$. 
 
 Essas retas em relação às nossas funções possuem o comportamento de formarem “barreiras” em suas imagens — seus valores explodem para $\pm \infty$ quando seu valor de entrada se aproxima de $c$. 
 
@@ -430,7 +430,7 @@ Perceba que um limite aparentemente complexo torna-se relativamente simples ao r
 
 Agora, e para o cálculo de limites com indeterminações da forma $\infty - \infty$, como podemos proceder? Uma estratégia possível é a combinação do rearranjamento algébrico com a aplicação da <a href="/books/higher_education/math/calculus_one/derivatives_applications.html" target="_blank">Regra de L'Hôpital</a>.
 
-Por consequẽncia, e finalizando o motivo da abertura desse adendo sobre limites no infinito, a reta $y=L$ é chamada **assíntota horizontal** da função $f$. 
+Por consequência, e finalizando o motivo da abertura desse adendo sobre limites no infinito, a reta $y=L$ é chamada **assíntota horizontal** da função $f$. 
 
 Por exemplo, ao analisarmos a função dada anteriormente, $f(x) = \dfrac{2}{x}$, podemos ver que ao aumentarmos o valor de $x$ na direção do infinito positivo, o valor da função se torna cada vez mais próximo de 0. O mesmo acontece na direção oposta.
 
@@ -447,7 +447,7 @@ $$
 
 Chamamos “assíntotas oblíquas” as assíntotas cuja equação reduzida possui ambos os coeficientes (linear e angular) não nulos. 
 
-Uma função possui assíntota oblíqua se for racional — ou seja, no formato $f(x)= \dfrac{g(x)}{h(x)}$, com $g(x)$ e $h(x)\neq0$ polinômiosa —, e se $\text{Grau(g(x))} = \text{Grau(h(x))} +1$ . 
+Uma função possui assíntota oblíqua se for racional — ou seja, no formato $f(x)= \dfrac{g(x)}{h(x)}$, com $g(x)$ e $h(x)\neq0$ polinomial <!-- POLINÔMIOSA????--> —, e se $\text{Grau(g(x))} = \text{Grau(h(x))} +1$ . 
 
 A equação da assíntota é o quociente da divisão entre os dois polinômios da função racional. 
 
@@ -518,7 +518,7 @@ Pelo <b>teorema do anulamento</b>, existe $c$ em $[a,b]$ tal que $g(c) = 0$, ou 
 
 </aside>
 
-Conforme mencionado por Guidorizzi, está abaixo o teorema do anulamento conforme mencionado por este. 
+Conforme mencionado por Guidorizzi, está abaixo o teorema do anulamento.
 
 <aside>
 
@@ -572,7 +572,7 @@ Percebe-se que é necessário ainda ter em mente algo ainda mais fundamental: o 
 
 <aside>
 
-<b>Teorema (Guidorizzi, Propriedade dos Intervalos Encaixantes)</b> — Seja $[a_0, b_0], [a_1, b_1], [a_2, b_2], ..., [a_n, b_n]$ uma sequência de intervalos de forma que: cada intervalo da sequência contenha o seguinte; para todo $r \gt 0$, existe um natural $n$ tal que $b_n - a_n \lt r$ (à medida que $n$ cresce, o comprimento do intervalo $[a_n, b_n]$ tende à zero). Logo, existe um único $\alpha \in \mathbb{R}$ que pertence a todos os intervalos da sequência. Como consequência, vemos que a reta real não possui "buracos", com todos os seus pontos sendo relacionados a um número real.
+<b>Teorema (Guidorizzi, Propriedade dos Intervalos Encaixantes)</b> — Seja $[a_0, b_0], [a_1, b_1], [a_2, b_2], ..., [a_n, b_n]$ uma sequência de intervalos de forma que cada intervalo da sequência contenha o seguinte: para todo $r \gt 0$, existe um natural $n$ tal que $b_n - a_n \lt r$ (à medida que $n$ cresce, o comprimento do intervalo $[a_n, b_n]$ tende à zero). Logo, existe um único $\alpha \in \mathbb{R}$ que pertence a todos os intervalos da sequência. Como consequência, vemos que a reta real não possui "buracos", com todos os seus pontos sendo relacionados a um número real.
 
 </aside>
 
@@ -580,7 +580,7 @@ Percebe-se que é necessário ainda ter em mente algo ainda mais fundamental: o 
 
 ## Limite fundamental trigonométrico 
 
-Denominamos o limite $\lim_{x \rightarrow 0}\dfrac{\sin{x}}{x} = 1$ como o <b>limite fundamental trigonométrico</b>. A importância deste limite vem de sua utilidade em demonstrar muitas outras relações, além de permitir simplificar a resolver muitos outros limites de funções trigonométricas. 
+Denominamos o limite $\lim_{x \rightarrow 0}\dfrac{\sin{x}}{x} = 1$ como o <b>limite fundamental trigonométrico</b>. A importância deste limite vem de sua utilidade em demonstrar muitas outras relações, além de facilitar a resolução de muitos outros limites de funções trigonométricas. 
 
 Para sua demonstração abaixo, nós iremos utilizar apenas o ciclo trigonométrico, formando uma desigualdade de funções com origem geométrica e, por fim, aplicar o teorema do confronto devido a sua continuidade.
 
@@ -592,7 +592,7 @@ Tomando um ângulo $\theta$ no primeiro quadrante, podemos considerar as figuras
 
 Note que a área do triângulo menor, de lados $\sin{\theta}$ e $\cos{\theta}$ é $A_1 = \dfrac{1}{2}\cos{\theta}\sin{\theta}$. Além disso, a área do setor circular formado pelo ângulo $\theta$ é de $A_2 = \dfrac{1}{2}\theta$. Por fim, a área do triângulo maior, formado pela reta tangente, é $A_3 = \dfrac{1}{2}\tan{x}$. 
 
-É perceptível, pela figura, que pode ser montada uma desigualdade entre essas áreas. 
+É perceptível, pela figura abaixo, que pode ser montada uma desigualdade entre essas áreas. 
 
 $$
 \dfrac{1}{2}\sin{\theta}\cos{\theta} \le \dfrac{1}{2}\theta \le \dfrac{1}{2}\tan{\theta}

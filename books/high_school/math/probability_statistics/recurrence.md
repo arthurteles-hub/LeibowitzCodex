@@ -4,7 +4,7 @@
 
 Para entendermos o que são recorrências, primeiro temos que saber o que são <b>sequências</b>. 
 
-Uma <b>sequência</b> é definida como uma função $f:\mathbb{N} \to \mathbb{R}$. Assim, se chamarmos cada termo $f(n)$por $a_n$, podemos dizer que uma sequência é uma lista organizada no formato $(a_1, a_2, ..., a_n, ...)$. É importante deixar claro que as sequências podem ser finitas ou infinitas. 
+Uma <b>sequência</b> é definida como uma função $f:\mathbb{N} \to \mathbb{R}$. Assim, se chamarmos cada termo $f(n)$ por $a_n$, podemos dizer que uma sequência é uma lista organizada no formato $(a_1, a_2, ..., a_n, ...)$. É importante deixar claro que as sequências podem ser finitas ou infinitas. 
 
 Várias sequências são bem conhecidas, temos, por exemplo, os números naturais, os números pares e também os números ímpares.
 

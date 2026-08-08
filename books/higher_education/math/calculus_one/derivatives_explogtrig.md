@@ -2,7 +2,7 @@
 
 # Introdução
 
-Dizemos que funções que não podem ser expressas por meio da soma de polinômios, como <b>senos</b>, <b>exponenciais</b> e <b>logarítmicas</b>, são funções <b>transcendentais</b>, pois elas transcendem a álgebra. De fato, abaixo veremos como podemos derivar essas funções citadas acima, funções trigonométricas, exponenciais e logarítmicas, e suas regras de derivação correspondentes.
+Dizemos que funções que não podem ser expressas por meio de uma soma finita de polinômios, como <b>senos</b>, <b>exponenciais</b> e <b>logarítmicas</b>, são funções <b>transcendentais</b>, pois elas transcendem a álgebra<!--Adicionar aqui um adendo: "embora possam ser expressas por meio de Séries infinitas" (daí coloca um link para ir para página de séries). Do jeito que estava está impreciso por não incluir esse detalhe-->. De fato, abaixo veremos como podemos derivar essas funções citadas acima, funções trigonométricas, exponenciais e logarítmicas, e suas regras de derivação correspondentes.
 
 # Derivando funções exponenciais
 

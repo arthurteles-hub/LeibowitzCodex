@@ -23,7 +23,7 @@ $$
 \end{align*}
 $$
 
-Traduzindo isso para uma linguagem comum, seria basicamente um “bota-tira”, que é justamente o nome do princípio: primeiro se soma todos os elementos, depois retira-se a intercessão, depois coloca o que foi retirado mais de uma vez, depois retira-se o excesso e assim por diante, até que todos os conjuntos estejam contados apenas uma vez. 
+Traduzindo isso para uma linguagem comum, seria basicamente um “bota-tira”, que é justamente o nome do princípio: primeiro se soma todos os elementos, depois retira-se a intersessão, depois coloca o que foi retirado mais de uma vez, depois retira-se o excesso e assim por diante, até que todos os conjuntos estejam contados apenas uma vez. 
 
 Uma curiosidade sobre o $(-1)^{n+1}$ no final é que, se $n$ for par, o final seria uma subtração, caso contrário, será uma adição, ou seja, o $(-1)^{n+1}$ é basicamente uma “condicional” para o final do algoritmo. Isso pode ser visto no exemplo abaixo: como $n=3$, $n+1=4$, o que nos informa que o último passo é uma soma, o que é verdade.
 
@@ -122,7 +122,7 @@ O segundo lema pode ser entendido como uma “evolução” do primeiro: agora, 
 
 Para provar o segundo lema, vamos nos utilizar de um argumento combinatório. 
 
-Pelo príncipio aditivo, sabemos que a quantidade total de subconjuntos será a soma da quantidade de subconjuntos com o “1” presente nele com a quantidade de subconjuntos em que o “1” não está presente. 
+Pelo príncípio aditivo, sabemos que a quantidade total de subconjuntos será a soma da quantidade de subconjuntos com o “1” presente nele com a quantidade de subconjuntos em que o “1” não está presente. 
 
 No primeiro caso, teremos que escolher $k-1$ elementos dentre $n-3$, já que como o “1” já foi escolhido, só precisamos escolher outros $k-1$. Além disso, como o “1” está no subconjunto, $2$ e $n$ não podem estar nele, já que são consecutivos do “1”. 
 

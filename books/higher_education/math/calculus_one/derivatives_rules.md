@@ -223,7 +223,7 @@ $$
 
 <aside>
 
-Daqui em diante é interessante a utilização da notação de Leibnitz em algumas — várias — situações pela sua maior densidade informacional. Se não estiver familiarizado com a notação batizada em sua homenagem, recomendamos que faça uma pequena visita à seção "Notações para derivada" <a href="/books/higher_education/math/calculus_one/derivatives_concepts.html" target="_blank">deste manuscrito</a>.
+Daqui em diante é interessante a utilização da notação de Leibniz <!-- ("Leibnitz" de novo) Acho que você estava confundindo Leibniz com Leibowitz hehe --> em algumas — várias — situações pela sua maior densidade informacional. Se não estiver familiarizado com a notação batizada em sua homenagem, recomendamos que faça uma pequena visita à seção "Notações para derivada" <a href="/books/higher_education/math/calculus_one/derivatives_concepts.html" target="_blank">deste manuscrito</a>.
 
 </aside>
 

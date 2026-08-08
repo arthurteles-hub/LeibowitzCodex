@@ -23,19 +23,19 @@ $$
     \tanh{x} &= \dfrac{\sinh{x}}{\cosh{x}} \\\\
     \text{csch }x &= \dfrac{1}{\sinh{x}} \\\\
     \text{sech }x &= \dfrac{1}{\cosh{x}} \\\\
-    \text{ctgh }x &= \dfrac{1}{\tanh{x}}
-\end{align*}
+    \text{cotgh }x &= \dfrac{1}{\tanh{x}}
+\end{align*} 
 $$
-
+<!-- Aqui você tinha feito "ctgh", sendo que no resto do texto fez "cotgh". Tente manter somente uma. -->
 Além disso, valem as propriedades a seguir. 
 
 $$
 \begin{align*}
-    \sinh{0} &= 0 \\\\
+    \sinh{0} =& 0 \\\\
     \sinh{-x} &= -\sinh{x} \\\\
     \cosh{-x} &= \cosh{x} \\\\
-    \cosh^2{x} - \sinh^2{x} &= 1 \\\\
-    1 - \tanh^2{x} &= \text{sech }^2 x \\\\ 
+    \cosh^2{x} -& \sinh^2{x} = 1 \\\\
+    1 - \tanh^2&{x} = \text{sech }^2 x \\\\ 
     \sinh{x + y} &= \sinh{x}\cosh{y} + \sinh{y}\cosh{x} \\\\
     \cosh{x + y} &= \cosh{x}\cosh{y} + \sinh{x}\sinh{y}
 \end{align*}

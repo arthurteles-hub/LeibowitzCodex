@@ -33,10 +33,10 @@ Assim, por exemplo, o subconjunto “cair face par” do dado seria $\{2, 4, 6\}
 Geralmente, quando calculamos a probabilidade de um evento acontecer, consideramos que eles são <b>equiprováveis</b> ou de <b>probabilidade uniforme</b>, ou seja, dentro do espaço amostral todos os eventos possuem a mesma probabilidade de acontecer. Matematicamente, podemos escrever: 
 
 $$
-P(a_i)=\dfrac{1}{n}, \forall i
+P(\{a_i\})=\dfrac{1}{n}, \forall i
 $$
 
-Com $n$ sendo o número de elementos do espaço amostral $(|\Omega|)$. 
+com $n$ sendo o número de elementos do espaço amostral $(|\Omega|)$. 
 
 Por conta disso, podemos calcular a possibilidade de um dado evento acontecer pela fração
 
@@ -86,7 +86,7 @@ $$
 \begin{align*}
     P(\Omega - A)&=1-P(A) \\
     A\subset B &\implies P(A) \le P(B) \\
-    P(A \cup B) &\implies P(A) +P(B)-P(A\cap B)
+    P(A \cup B) &= P(A) +P(B)-P(A\cap B)
 \end{align*}
 $$
 
@@ -108,9 +108,10 @@ A necessidade de contar é evidente: para calcularmos algo, precisamos abstrair 
 
 Para ilustrar isso, vamos utilizar como o exemplo três lançamentos de uma moeda. Chamando as caras de $c$ e as coroas de $k$, podemos definir $X$ como sendo o número de caras nos três lançamentos. 
 
-Vamos dizer que no primeiro trio de lançamentos, tivemos os resultados $\Omega=\{cck\}$. Assim, como temos duas caras no espaço amostral, vemos que $X(\Omega)=2$. 
+Vamos dizer que no primeiro trio de lançamentos, tivemos os resultados $\omega=cck$. Assim, como temos duas caras, vemos que $X(\omega)=2$. 
 
-Jogamos a moeda três vezes e obtemos os resultados $\Omega=\{kkk\}$. Não tiramos nenhuma cara! Logo, temos que $X(\Omega)=0$. 
+Jogamos a moeda três vezes e obtemos os resultados $\omega=kkk$. Não tiramos nenhuma cara! Logo, temos que $X(\omega)=0$. 
+<!-- Uma variável aleatória mapeia um elemento do espaço amostral para um número real. Ou seja, dado um evento, ela pega um elemento dele e dá um número. Do jeito como estava, sendo que você usou \Omega para definir espaço amostral, parecia que ele todo estava sendo pegado. A saber, o espaço amostral desse experimento seria $\Omega = \{(a_1, a_2, a_2) | a_i \in \{c, k\}\}$, ou seja, o conjunto de todas as listas possíveis de 3 resultados de c ou k. -->
 
 ## Probabilidade com variáveis aleatórias
 
@@ -118,9 +119,9 @@ Podemos combinar os conceitos de probabilidade com as variáveis aleatórias e c
 
 Qual a probabilidade de que o número de caras seja dois? Ou seja, quanto vale $P(X=2)$? 
 
-Podemos calcular isso relativamente rápido vendo que só temos três $\Omega$ possíveis em que isso é verdade: $\{cck\}$, $\{ckc\}$ e $\{kcc\}$. 
+Podemos calcular isso relativamente rápido vendo que só temos três resultados possíveis em que isso é verdade: $\{cck\}$, $\{ckc\}$ e $\{kcc\}$. 
 
-Agora, quantos $\Omega$ possíveis temos, ao total? Temos duas possibilidades para cada lançamento (cara ou coroa), logo, vemos que ao todo temos $2³=8$ possibilidades de $\Omega$. 
+Agora, quantas combinações possíveis disso temos, ao total? Temos duas possibilidades para cada lançamento (cara ou coroa), logo, vemos que ao todo temos $2³=8$ resultados possíveis.
 
 Assim, finalizamos a pergunta:
 
@@ -203,7 +204,7 @@ Esta escrita é possível em razão da distinguibilidade dos dois resultados (s�
 
 A <b>distribuição binomial</b> pode ser entendida como uma extensão da distribuição de Bernoulli para situações que repetimos o mesmo experimento um número $n$ de vezes, 
 
-Matemáticamente, dizemos que uma variável aleatória $X$ é de distribuição binomial de parâmetros $(n,p)$ se 
+Matematicamente, dizemos que uma variável aleatória $X$ é de distribuição binomial de parâmetros $(n,p)$ se 
 
 $$
 P(X=k)=\binom{n}{k}p^k(1-p)^{n-k}

@@ -32,7 +32,7 @@ $$
 |P \cdot Q| = |P| \cdot |Q|
 $$
 
-Essa princípio pode ser visto como uma “evolução” do princípio aditivo, por um exemplo simples. Imagine que você tem 5 camisas e 3 calças, de quantas maneiras você pode combiná-las?
+Esse princípio pode ser visto como uma “evolução” do princípio aditivo, por um exemplo simples. Imagine que você tem 5 camisas e 3 calças, de quantas maneiras você pode combiná-las?
 
 Para a primeira camisa, você tem três calças, para a segunda camisa, também três calças, e depois para a quarta, e para a quinta camisa, ou seja: 
 
@@ -141,7 +141,7 @@ $$
 
 </aside>
 
-Para demonstrar isso, vamos definir $A_k$ como sendo conjunto de todas permutações que o elemento $k$ está em sua posição natural, ou seja, a posição $k$. Como fixamos o elemento $k$ na sua posição inicial, só precisamos agora permutar $n-1$ elementos, ou seja, concluímos que a quantidade de permutações em que $k$ permanence na posição original é dada por $|A_k|=(n-1)!$. 
+Para demonstrar isso, vamos definir $A_k$ como sendo conjunto de todas permutações que o elemento $k$ está em sua posição natural, ou seja, a posição $k$. Como fixamos o elemento $k$ na sua posição inicial, só precisamos agora permutar $n-1$ elementos, ou seja, concluímos que a quantidade de permutações em que $k$ permanece na posição original é dada por $|A_k|=(n-1)!$. 
 
 Agora, podemos perceber que $A_k\cap A_j$ é o conjunto de todas as permutações que os elementos $k$ e $j$ continuam nas suas posições originais: como agora dois elementos estão fixos, temos que a quantidade de permutações é dada por $|A_k\cap A_j|=(n-2)!$. Esse padrão é importante, pois é o mesmo padrão do PIE: quando somamos $|A_k|+|A_j|$, há algumas permutações que contamos em excesso e, por isso, retiramos a intersecção, ou seja, é um PIE “disfarçado”. 
 

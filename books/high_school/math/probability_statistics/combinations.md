@@ -44,7 +44,7 @@ Podemos demonstrar a relação por meio de duas maneiras, dois *argumentos combi
 
 <aside>
 
-Um <b>argumento combinatório</b> é uma prova que se utiliza da combinatória para provar uma identidade. Para isso, alguns métodos são utilizados, como o da <b>contagem dupla</b>: se duas relações diferentes  resultam na mesma coisa, elas iguais entre si.
+Um <b>argumento combinatório</b> é uma prova que se utiliza da combinatória para provar uma identidade. Para isso, alguns métodos são utilizados, como o da <b>contagem dupla</b>: se duas relações diferentes resultam na mesma coisa, elas iguais entre si.
 
 </aside>
 

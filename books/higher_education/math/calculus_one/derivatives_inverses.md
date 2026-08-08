@@ -59,7 +59,7 @@ Portanto, $g$ é derivável em $p$ e $g'(p) = \dfrac{1}{f'(g(p))}$.
 $$
 \begin{align*}
     [f(g(x))]' &= x' \\\\
-    f'(g(x)) \cdot g'(x) &= 1 \\\\perimento da 2ª Lei de Newton (Física Experim
+    f'(g(x)) \cdot g'(x) &= 1
     g'(x) &= \dfrac{1}{f'(g(x))}
 \end{align*}
 $$
@@ -68,7 +68,7 @@ $$
 
 # Derivando as funções inversas trigonométricas
 
-Para encontrar as funções inversas trigonométricas, podemos tanto aplicar o método da derivação implicita diretamente como utilizar o teorema exposto previamente. 
+Para encontrar as funções inversas trigonométricas, podemos tanto aplicar o método da derivação implícita diretamente como utilizar o teorema exposto previamente. 
 
 ## Derivando a função arco seno
 

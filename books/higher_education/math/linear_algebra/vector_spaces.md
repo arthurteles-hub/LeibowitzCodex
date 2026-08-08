@@ -22,7 +22,7 @@ Além disso, deve estar definida neste conjunto uma operação de multiplicaçã
 
 </aside>
 
-Note que ao definirmos um espaço vetorial, o fizemos <i>sobre</i> um dado conjunto numérico (os números reais). No entanto, também é possível fazer isso em relação aos números complexos (com as mesmas propriedades continuando a valor). Sendo assim, o que é este objeto matemático que estamos definindo nosso conjunto especial sobre? Eles recebem o nome de <b>corpos</b>. 
+Note que ao definirmos um espaço vetorial, o fizemos <i>sobre</i> um dado conjunto numérico (os números reais). No entanto, também é possível fazer isso em relação aos números complexos (com as mesmas propriedades continuando a valer). Sendo assim, o que é este objeto matemático que estamos definindo nosso conjunto especial sobre? Eles recebem o nome de <b>corpos</b>. 
 
 De forma sucinta, os corpos são conjuntos munidos das operações de adição e multiplicação de forma que, enquanto a adição seja comutativa, associativa, admita elemento neutro e elemento oposto, a multiplicação deve ser associativa, comutativa, possuir elemento neutro, uma operação inversa e, além disso, ser distributiva. Podemos citar como exemplo de corpos os números reais, os racionais e os números complexos. 
 
@@ -60,7 +60,7 @@ De forma sucinta, um subespaço vetorial é um subconjunto de um espaço vetoria
 
 </aside>
 
-Por consequência das hipóteses, temos diretamenteque se $W$ é subespaço vetorial de $V$, que é um espaço vetorial sobre $\mathbb{R}$, então $W$ é também um espaço vetorial sobre $\mathbb{R}$. Além disso, temos que a intersecção de dois subespaços de um espaço vetorial é também um subespaço vetorial. 
+Por consequência das hipóteses, temos diretamente que se $W$ é subespaço vetorial de $V$, que é um espaço vetorial sobre $\mathbb{R}$, então $W$ é também um espaço vetorial sobre $\mathbb{R}$. Além disso, temos que a intersecção de dois subespaços de um espaço vetorial é também um subespaço vetorial. 
 
 Interessantemente, podemos definir uma operação <b>soma</b> para dois subespaços. 
 
@@ -108,11 +108,12 @@ $$
 
 ### Dimensão da soma de dois subespaços 
 
-É possível mostrar ainda que a dimensão da soma de dois subespaços (de dimensão finita) de um espaço vetorial de dimensão finita é dada por 
+É possível mostrar ainda que a dimensão da soma de dois subespaços (de dimensão finita) de um espaço vetorial de dimensão finita é dada por
 
 $$
 \dim{(U + V)} = \dim{U} + \dim{V} - \dim{(U \cap V)}
 $$
+<!-- Olha só, é exatamente como é a probabilidade da união de dois eventos não mutuamente excludentes! -->
 
 ## Bases ordenadas e mudança de base
 
@@ -132,7 +133,7 @@ $$
 \begin{cases}
     v_1 = \alpha_{11}u_1 + ... + \alpha_{n1}u_n \\ 
     ... \\ 
-    v_n = \alpha{1_n}u_1 + ... + \alpha_{nn}u_n
+    v_n = \alpha_{1n}u_1 + ... + \alpha_{nn}u_n
 \end{cases}
 $$
 
@@ -148,7 +149,7 @@ P =
 \end{pmatrix}
 $$
 
-Dessa forma, base multiplicar pela esquerda esta matriz com as coordenadas de um dado vetor na base $B$ para obter uma matriz coluna com as coordenadas deste mesmo vetor na base $C$. 
+Dessa forma, basta multiplicar pela esquerda esta matriz com as coordenadas de um dado vetor na base $B$ para obter uma matriz coluna com as coordenadas deste mesmo vetor na base $C$. 
 
 # Referências
 

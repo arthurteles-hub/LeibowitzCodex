@@ -26,7 +26,7 @@ $$
 
 Essa conclusão pode ser tirada também pela análise de que a razão $\dfrac{dy}{dx}$ é o coeficiente angular da reta tangente no ponto $(x, f(x))$, que pode ser facilmente visualizado.
 
-O ato de tomar incrementos finitos e analisar sua razão para escalas infinitesimais é a clásica interpretação geométrica da derivada num ponto, com uma reta secante se tornando a reta tangente.
+O ato de tomar incrementos finitos e analisar sua razão para escalas infinitesimais é a clássica interpretação geométrica da derivada num ponto, com uma reta secante se tornando a reta tangente.
 
 # Regras de derivação
 
@@ -84,7 +84,7 @@ $$
 
 </aside>
 
-Além disso, ao considerarmos funções implícitas, percebemos que podemos encontrar diferenciais normalmente e paenas relacioná-los para obtermos a derivada regular ou a derivada da função inversa. Por exemplo, para $x^2 + y^2 = 1$, temos $2xdx + 2ydy = 0$ e, por consequência, 
+Além disso, ao considerarmos funções implícitas, percebemos que podemos encontrar diferenciais normalmente e apenas relacioná-los para obtermos a derivada regular ou a derivada da função inversa. Por exemplo, para $x^2 + y^2 = 1$, temos $2xdx + 2ydy = 0$ e, por consequência, 
 
 $$
 \begin{align*}

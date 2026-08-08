@@ -233,7 +233,7 @@ $$
 \lim_{x \to p} \dfrac{f(x)}{g(x)} = \lim_{x \to p} \dfrac{f'(x)}{g'(x)}
 $$
 
-Note que esta regra continua válida caso $x \to p$ seja substituido por $x \to p^+$ ou $x \to p^-$ ou $x \to \pm \infty$. 
+Note que esta regra continua válida caso $x \to p$ seja substituído por $x \to p^+$ ou $x \to p^-$ ou $x \to \pm \infty$. 
 
 </aside>
 
@@ -254,7 +254,7 @@ $$
 \lim_{x \to p^-}\dfrac{f(x)}{g(x)} = \lim_{x \to p^-}\dfrac{f'(x)}{g'(x)}
 $$
 
-Perceba que esta regra continua válida caso $x \to p^-$ seja substituido por $x \to p^+$ ou $x \to p$ ou $x \to \pm \infty$. Além disso, os limites das condições iniciais podem ser ambos $- \infty$ ou um $+\infty$ e outro $-\infty$. 
+Perceba que esta regra continua válida caso $x \to p^-$ seja substituído por $x \to p^+$ ou $x \to p$ ou $x \to \pm \infty$. Além disso, os limites das condições iniciais podem ser ambos $- \infty$ ou um $+\infty$ e outro $-\infty$. 
 
 </aside>
 
@@ -302,7 +302,7 @@ Podemos citar como exemplo a questão abaixo, formulada pelo prof. Dr. José Car
 
 <aside>
 
-Bombeando o ar para dentro de um balão esférico, observamos que seu volume aumenta a uma taxa de $100 \text{ m}^3 \text{/s}$. Quão rápido o raio do balão está aumentando quando o diâmetro do balão por 25 cm?
+Bombeando o ar para dentro de um balão esférico, observamos que seu volume aumenta a uma taxa de $100 \text{ m}^3 \text{/s}$. Quão rápido o raio do balão está aumentando quando o diâmetro do balão for 25 cm?
 
 </aside>
 
